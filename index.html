@@ -8,7 +8,8 @@
     type='text/css'>
     <style type="text/css" media="all">
       img {
-        width: 100%;
+        max-height: 100px;
+        width: auto;
       }
       aside {
         float: right;
@@ -16,17 +17,23 @@
       body {
         font-family: 'Roboto', sans-serif;
       }
+      header img {
+        max-height: 100%;
+        width: 100%;
+      }
     </style>
   </head>
   <body>
   <h1>Menu</h1>
-  <nav>
-    <ul>
-      <li><a href="#drinks">Beverages</a></li>
-      <li><a href="#food">Main Course</a></li>
-    </ul>
-  </nav>
-  <img src="restaurant.jpg" alt="Picture of filled tables at a restaurant" />
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#drinks">Beverages</a></li>
+        <li><a href="#food">Main Course</a></li>
+      </ul>
+    </nav>
+    <img src="restaurant.jpg" alt="Picture of filled tables at a restaurant" />
+  </header>
   <aside>
     <h3>Business Hours</h3>
     <p>
@@ -42,38 +49,45 @@
     </ul>
   </div>
   <div id="food">
+    <h3>Main Course</h3>
     <table border="1">
       <tr>
+        <th>Image</th>
         <th>Name</th>
         <th>Price</th>
       </tr>
       <tr>
+        <td><img src="chicken-wings.jpg" alt="Picture of multiple chicken wings" /></td>
         <td>Chicken Wings</td>
         <td>$7</td>
       </tr>
       <tr>
+        <td><img src="seafood-paella.jpg" alt="Picture of seafood paella" /></td>
         <td>Seafood Paella</td>
         <td>$15</td>
       </tr>
       <tr>
+        <td><img src="burger.jpg" alt="Picture of a burger with fries" /></td>
         <td>Burger</td>
         <td>$10</td>
       </tr>
       <tr>
+        <td><img src="steak.jpg" alt="Picture of a steak with potatoes on top" /></td>
         <td>Steak</td>
         <td>$12</td>
       </tr>
       <tr>
+        <td><img src="lamb-shank.jpg" alt="Picture of a lamb shank" /></td>
         <td>Lamb Shank</td>
         <td>$15</td>
       </tr>
       <tr>
+        <td><img src="pizza.jpg" alt="Picture of a slice of pizza" /></td>
         <td>Slice of Pizza</td>
         <td>$7</td>
       </tr>
     </table>
   </div>
-  <h3>Main Course</h3>
   <footer>
     <address>
       Restaurant located at
