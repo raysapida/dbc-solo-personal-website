@@ -9,19 +9,15 @@
   <h1>Email us!</h1>
   <form action="https://httpbin.org/post" method="post">
     <fieldset>
-      <label for="email">
-        Email Address
-        <input type="text" name="email" id="email" value="someone@someplace.com" />
-      </label>
+      <label>Email Address</label>
+      <input type="text" name="email" id="email" value="someone@someplace.com" />
       <br />
-      <label for="subject">
-        Subject line
-        <input type="text" name="subject" id="subject" value="This just in ..." />
-      </label>
+      <label>Subject line</label>
+      <input type="text" name="subject" id="subject" value="This just in ..." />
     </fieldset>
     <textarea name="message" id="message" rows="8" cols="40"></textarea>
     <br />
-    <input type="submit" name="submit" id="submit" value="Send!" />
+    <button type="submit">Send!</button>
   </form>
   </body>
 </html>
