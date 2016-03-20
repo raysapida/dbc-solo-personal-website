@@ -4,35 +4,22 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Menu</title>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,700'
+    rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'
     type='text/css'>
-    <style type="text/css" media="all">
-      img {
-        max-height: 300px;
-        width: auto;
-      }
-      aside {
-        float: right;
-      }
-      body {
-        font-family: 'Roboto', sans-serif;
-      }
-      header img {
-        max-height: 100%;
-        width: 100%;
-      }
-    </style>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
   </head>
   <body>
-  <h1>Menu</h1>
   <header>
+    <h1>Menu</h1>
+    <img src="restaurant.jpg" alt="Picture of filled tables at a restaurant" />
     <nav>
       <ul>
-        <li><a href="#drinks">Beverages</a></li>
-        <li><a href="#food">Main Course</a></li>
+        <li class="nav-links"><a href="#drinks">Beverages</a></li>
+        <li class="nav-links"><a href="#food">Main Course</a></li>
       </ul>
     </nav>
-    <img src="restaurant.jpg" alt="Picture of filled tables at a restaurant" />
   </header>
   <aside>
     <h3>Business Hours</h3>
@@ -40,54 +27,56 @@
     Mon - Fri : 8am - 10pm
     </p>
   </aside>
-  <div id="drinks">
-    <h3>Beverages - $3</h3>
-    <ul>
-      <li>Soda: Coke, Pepsi, 7UP, Diet Coke</li>
-      <li>Lemondae</li>
-      <li>Iced Tea</li>
-    </ul>
-  </div>
-  <div id="food">
-    <h3>Main Course</h3>
-    <table border="1">
-      <tr>
-        <th>Image</th>
-        <th>Name</th>
-        <th>Price</th>
-      </tr>
-      <tr>
-        <td><img src="chicken-wings.jpg" alt="Picture of multiple chicken wings" /></td>
-        <td>Chicken Wings</td>
-        <td>$7</td>
-      </tr>
-      <tr>
-        <td><img src="seafood-paella.jpg" alt="Picture of seafood paella" /></td>
-        <td>Seafood Paella</td>
-        <td>$15</td>
-      </tr>
-      <tr>
-        <td><img src="burger.jpg" alt="Picture of a burger with fries" /></td>
-        <td>Burger</td>
-        <td>$10</td>
-      </tr>
-      <tr>
-        <td><img src="steak.jpg" alt="Picture of a steak with potatoes on top" /></td>
-        <td>Steak</td>
-        <td>$12</td>
-      </tr>
-      <tr>
-        <td><img src="lamb-shank.jpg" alt="Picture of a lamb shank" /></td>
-        <td>Lamb Shank</td>
-        <td>$15</td>
-      </tr>
-      <tr>
-        <td><img src="pizza.jpg" alt="Picture of a slice of pizza" /></td>
-        <td>Slice of Pizza</td>
-        <td>$7</td>
-      </tr>
-    </table>
-  </div>
+  <main>
+    <div id="drinks">
+      <h3>Beverages - $3</h3>
+      <ul>
+        <li>Soda: Coke, Pepsi, 7UP, Diet Coke</li>
+        <li>Lemondae</li>
+        <li>Iced Tea</li>
+      </ul>
+    </div>
+    <div id="food">
+      <h3>Main Course</h3>
+      <table>
+        <tr>
+          <th>Image</th>
+          <th>Name</th>
+          <th>Price</th>
+        </tr>
+        <tr>
+          <td><img src="chicken-wings.jpg" alt="Picture of multiple chicken wings" /></td>
+          <td>Chicken Wings</td>
+          <td>$7</td>
+        </tr>
+        <tr>
+          <td><img src="seafood-paella.jpg" alt="Picture of seafood paella" /></td>
+          <td>Seafood Paella</td>
+          <td>$15</td>
+        </tr>
+        <tr>
+          <td><img src="burger.jpg" alt="Picture of a burger with fries" /></td>
+          <td>Burger</td>
+          <td>$10</td>
+        </tr>
+        <tr>
+          <td><img src="steak.jpg" alt="Picture of a steak with potatoes on top" /></td>
+          <td>Steak</td>
+          <td>$12</td>
+        </tr>
+        <tr>
+          <td><img src="lamb-shank.jpg" alt="Picture of a lamb shank" /></td>
+          <td>Lamb Shank</td>
+          <td>$15</td>
+        </tr>
+        <tr>
+          <td><img src="pizza.jpg" alt="Picture of a slice of pizza" /></td>
+          <td>Slice of Pizza</td>
+          <td>$7</td>
+        </tr>
+      </table>
+    </div>
+  </main>
   <footer>
     <address>
       Restaurant located at

@@ -1,0 +1,94 @@
+img {
+  max-height: 300px;
+  width: auto;
+}
+
+aside {
+  float: right;
+  margin-right: 10em;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: url(subtle_white_mini_waves.png);
+}
+
+header img {
+  max-height: 100%;
+  width: 100%;
+}
+
+header, footer {
+  margin: auto;
+  max-width: 50%;
+}
+
+h1 {
+  margin: auto;
+  max-width: 15%;
+}
+
+main {
+  margin: auto;
+  max-width: 80%;
+}
+
+#drinks, #food {
+  background: AntiqueWhite;
+}
+
+h1, h2, h3 {
+  font-family: 'Raleway', 'Roboto', sans-serif;
+}
+
+table {
+  border: 1px solid black;
+  padding: 1em;
+  width: 100%;
+  text-align: center;
+}
+
+nav {
+  margin: auto;
+  max-width: 70%;
+}
+
+.nav-links{
+  display: inline;
+  margin-right: 5em;
+}
+
+a:visited {
+  color: gray;
+}
+
+a:hover {
+  font-size: 1.3em;
+}
+
+/* syntax reference
+@media screen and (max-width: 500px) {
+  body {
+    background-color: hotpink;
+  }
+} 
+*/
+
+@media screen and (max-width: 900px) {
+  aside {
+    float: none;
+    margin: auto;
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  main, header, footer, table {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+  }
+  img {
+    width: 100%;
+  }
+} 
