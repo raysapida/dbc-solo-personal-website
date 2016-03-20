@@ -57,3 +57,19 @@ nav {
 a:visited {
   color: gray;
 }
+
+/* syntax reference
+@media screen and (max-width: 500px) {
+  body {
+    background-color: hotpink;
+  }
+} 
+*/
+
+@media screen and (max-width: 900px) {
+  aside {
+    float: none;
+    margin: auto;
+    max-width: 80%;
+  }
+}
