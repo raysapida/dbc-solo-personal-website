@@ -53,3 +53,7 @@ nav {
   display: inline;
   margin-right: 5em;
 }
+
+a:visited {
+  color: gray;
+}
